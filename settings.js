@@ -40,6 +40,6 @@ WELCOME: process.env.WELCOME || false  ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/cce13b56a460afc9f4139.jpg` ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,    
 ANTI_DELETE : process.env.ANTI_DELETE || true ,
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '18767908105 ' : process.env.DELETEMSGSENDTO        
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '18767908105' : process.env.DELETEMSGSENDTO        
     
 };
